@@ -1,0 +1,17 @@
+version: "3.7"
+
+services: 
+  
+  app_proxy: 
+    environment: 
+      APP_HOST: pjosalgado-homarr_server_1
+      APP_PORT: 7575
+  
+  server: 
+    image: ghcr.io/ajnart/homarr:0.14.2
+    restart: unless-stopped
+    volumes: 
+      - ${APP_DATA_DIR}/configs:/app/data/configs
+      - ${APP_DATA_DIR}/data:/data
+      - ${APP_DATA_DIR}/icons:/app/public/icons
+      - /var/run/docker.sock:/var/run/docker.sock

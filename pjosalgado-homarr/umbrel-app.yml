@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: pjosalgado-homarr
+name: Homarr
+tagline: A simple, yet powerful dashboard for your server.
+icon: https://i.ibb.co/2F5f2CW/homarr-logo.jpg
+category: Dashboards
+version: "0.14.2"
+port: 7575
+description: >-
+  Simplify the management of your server with Homarr - a sleek, modern dashboard that puts all of your apps and services at your fingertips.
+  With Homarr, you can access and control everything in one convenient location.
+  Homarr seamlessly integrates with the apps you've added, providing you with valuable information and giving you complete control.
+  Installation is a breeze, and Homarr supports a wide range of deployment methods.
+developer: Homarr developers
+website: https://homarr.dev
+submitter: Paulo Salgado
+submission: https://paulosalgado.tech
+repo: https://github.com/ajnart/homarr
+support: https://github.com/pjosalgado/umbrel-community-app-store/issues
+gallery:
+  - https://homarr.dev/img/pictures/homarr-devices-preview/compressed/homarr-devices-2d-mockup-flat-shadow-dark-compressed.webp
+  - https://homarr.dev/assets/images/homarr-organize-fc9b4ffafb0cffcee08adf32a8ad0818.gif
+  - https://homarr.dev/assets/images/create-account-4c0b28bb2c528d4abcbfbaa34fea4542.webp
+  - https://homarr.dev/assets/images/add-app-modal-d83cff75bb43f2e496c8f419f3424694.webp
+releaseNotes: >-
+  v0.14.2 Home Assistant and imprortant bugfixes 
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
