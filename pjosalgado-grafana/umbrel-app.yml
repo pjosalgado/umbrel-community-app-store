@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: pjosalgado-grafana
+name: Grafana
+tagline: Grafana is the open source analytics & monitoring solution for every database.
+icon: https://cdn.icon-icons.com/icons2/2108/PNG/512/grafana_icon_130916.png
+category: Dashboards
+version: "10.0.8"
+port: 3000
+description: >-
+  Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture:
+    - Visualizations: Fast and flexible client side graphs with a multitude of options. Panel plugins offer many different ways to visualize metrics and logs.
+    - Dynamic Dashboards: Create dynamic & reusable dashboards with template variables that appear as dropdowns at the top of the dashboard.
+    - Explore Metrics: Explore your data through ad-hoc queries and dynamic drilldown. Split view and compare different time ranges, queries and data sources side by side.
+    - Explore Logs: Experience the magic of switching from metrics to logs with preserved label filters. Quickly search through all your logs or streaming them live.
+    - Alerting: Visually define alert rules for your most important metrics. Grafana will continuously evaluate and send notifications to systems like Slack, PagerDuty, VictorOps, OpsGenie.
+    - Mixed Data Sources: Mix different data sources in the same graph! You can specify a data source on a per-query basis. This works for even custom datasources.
+developer: Grafana
+website: https://grafana.com
+submitter: Paulo Salgado
+submission: https://paulosalgado.tech
+repo: https://github.com/grafana/grafana
+support: https://github.com/pjosalgado/umbrel-community-app-store/issues
+gallery:
+  - https://grafana.com/media/products/cloud/grafana/grafana-dashboard-english.png
+  - https://www.timescale.com/blog/content/images/2020/04/800px-grafana-override.gif
+  - https://miro.medium.com/v2/resize:fit:1400/1*jQL8UEBX4QwVZ7Llj1jeLA.png
+releaseNotes: >-
+   10.0.8 (2023-09-29)
+   What's new highlights
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
