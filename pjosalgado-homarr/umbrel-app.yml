@@ -11,7 +11,7 @@ description: >-
   With Homarr, you can access and control everything in one convenient location.
   Homarr seamlessly integrates with the apps you've added, providing you with valuable information and giving you complete control.
   Installation is a breeze, and Homarr supports a wide range of deployment methods.
-developer: Homarr developers
+developer: Homarr
 website: https://homarr.dev
 submitter: Paulo Salgado
 submission: https://paulosalgado.tech
@@ -23,7 +23,10 @@ gallery:
   - https://homarr.dev/assets/images/create-account-4c0b28bb2c528d4abcbfbaa34fea4542.webp
   - https://homarr.dev/assets/images/add-app-modal-d83cff75bb43f2e496c8f419f3424694.webp
 releaseNotes: >-
-  v0.14.2 Home Assistant and imprortant bugfixes 
+  v0.14.2 - Home Assistant and important bugfixes
+    - Home Assistant integration
+    - Official Reddit r/homarr to share dashboards or discuss new features
+    - Bug fixes for notepad and several other problems
 dependencies: []
 path: ""
 defaultUsername: ""
