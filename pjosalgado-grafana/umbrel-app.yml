@@ -25,8 +25,18 @@ gallery:
   - https://www.timescale.com/blog/content/images/2020/04/800px-grafana-override.gif
   - https://miro.medium.com/v2/resize:fit:1400/1*jQL8UEBX4QwVZ7Llj1jeLA.png
 releaseNotes: >-
-   10.0.8 (2023-09-29)
-   What's new highlights
+  10.0.8 (2023-09-29)
+    - Breaking changes
+    - Correlations
+    - Scenes
+    - Subfolders
+    - Dashboards and visualizations
+    - Public dashboards
+    - Authentication and authorization
+    - Tracing
+    - Data sources
+    - Alerting
+    - Security
 dependencies: []
 path: ""
 defaultUsername: ""
