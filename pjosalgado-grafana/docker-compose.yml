@@ -9,7 +9,6 @@ services:
   
   server: 
     image: grafana/grafana:10.0.8
-    user: "1000:1000"
     restart: unless-stopped
     volumes: 
       - ${APP_DATA_DIR}/data:/var/lib/grafana
