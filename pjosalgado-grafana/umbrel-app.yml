@@ -1,9 +1,9 @@
 manifestVersion: 1
 id: pjosalgado-grafana
 name: Grafana
-tagline: Grafana is the open source analytics & monitoring solution for every database.
+tagline: Grafana is the open source analytics & monitoring solution for every database
 icon: https://i.ibb.co/9r7kXDq/grafana-icon.png
-category: Dashboards
+category: Files & Productivity
 version: "10.0.8"
 port: 3000
 description: >-

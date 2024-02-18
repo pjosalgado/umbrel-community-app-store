@@ -1,9 +1,9 @@
 manifestVersion: 1
 id: pjosalgado-homarr
 name: Homarr
-tagline: A simple, yet powerful dashboard for your server.
+tagline: A simple, yet powerful dashboard for your server
 icon: https://i.ibb.co/wNJ3BBh/homarr-icon.jpg
-category: Dashboards
+category: Files & Productivity
 version: "0.14.2"
 port: 7575
 description: >-

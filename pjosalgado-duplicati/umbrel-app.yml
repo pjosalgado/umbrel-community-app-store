@@ -3,7 +3,7 @@ id: pjosalgado-duplicati
 name: Duplicati
 tagline: Free backup software to store encrypted backups online
 icon: https://i.ibb.co/FzMN4B6/duplicati-icon.png
-category: Backup
+category: Files & Productivity
 version: "2.0.7"
 port: 8200
 description: >-
