@@ -1,0 +1,15 @@
+version: "3.7"
+
+services: 
+  
+  app_proxy: 
+    environment: 
+      APP_HOST: pjosalgado-duplicati_server_1
+      APP_PORT: 8200
+  
+  server: 
+    image: lscr.io/linuxserver/duplicati:2.0.7
+    restart: unless-stopped
+    volumes: 
+      - ${UMBREL_ROOT}:/umbrel
+      - ${APP_DATA_DIR}/backups:/backups
