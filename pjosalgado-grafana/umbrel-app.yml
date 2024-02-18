@@ -2,7 +2,7 @@ manifestVersion: 1
 id: pjosalgado-grafana
 name: Grafana
 tagline: Grafana is the open source analytics & monitoring solution for every database.
-icon: https://cdn.icon-icons.com/icons2/2108/PNG/512/grafana_icon_130916.png
+icon: https://i.ibb.co/9r7kXDq/grafana-icon.png
 category: Dashboards
 version: "10.0.8"
 port: 3000
@@ -21,9 +21,9 @@ submission: https://paulosalgado.tech
 repo: https://github.com/grafana/grafana
 support: https://github.com/pjosalgado/umbrel-community-app-store/issues
 gallery:
-  - https://grafana.com/media/products/cloud/grafana/grafana-dashboard-english.png
-  - https://www.timescale.com/blog/content/images/2020/04/800px-grafana-override.gif
-  - https://miro.medium.com/v2/resize:fit:1400/1*jQL8UEBX4QwVZ7Llj1jeLA.png
+  - https://i.ibb.co/88HWSPB/grafana-gallery-01.png
+  - https://i.ibb.co/jrTzgVg/grafana-gallery-02.gif
+  - https://i.ibb.co/QHPWpS3/grafana-gallery-03.png
 releaseNotes: >-
   10.0.8 (2023-09-29)
     - Breaking changes

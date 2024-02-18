@@ -2,7 +2,7 @@ manifestVersion: 1
 id: pjosalgado-homarr
 name: Homarr
 tagline: A simple, yet powerful dashboard for your server.
-icon: https://i.ibb.co/2F5f2CW/homarr-logo.jpg
+icon: https://i.ibb.co/wNJ3BBh/homarr-icon.jpg
 category: Dashboards
 version: "0.14.2"
 port: 7575
@@ -18,10 +18,10 @@ submission: https://paulosalgado.tech
 repo: https://github.com/ajnart/homarr
 support: https://github.com/pjosalgado/umbrel-community-app-store/issues
 gallery:
-  - https://homarr.dev/img/pictures/homarr-devices-preview/compressed/homarr-devices-2d-mockup-flat-shadow-dark-compressed.webp
-  - https://homarr.dev/assets/images/homarr-organize-fc9b4ffafb0cffcee08adf32a8ad0818.gif
-  - https://homarr.dev/assets/images/create-account-4c0b28bb2c528d4abcbfbaa34fea4542.webp
-  - https://homarr.dev/assets/images/add-app-modal-d83cff75bb43f2e496c8f419f3424694.webp
+  - https://i.ibb.co/jZSfmhb/homarr-gallery-01.webp
+  - https://i.ibb.co/zZdxT0V/homarr-gallery-02.gif
+  - https://i.ibb.co/7VNMFh4/homarr-gallery-03.webp
+  - https://i.ibb.co/BttvHn7/homarr-gallery-04.png
 releaseNotes: >-
   v0.14.2 - Home Assistant and important bugfixes
     - Home Assistant integration
