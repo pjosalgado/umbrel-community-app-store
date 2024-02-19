@@ -12,5 +12,6 @@ services:
     restart: unless-stopped
     hostname: "${DEVICE_HOSTNAME}"
     volumes: 
-      - ${UMBREL_ROOT}:/umbrel
+      - ${APP_DATA_DIR}/config:/config
       - ${APP_DATA_DIR}/backups:/backups
+      - ${UMBREL_ROOT}:/umbrel
