@@ -4,7 +4,7 @@ name: Homarr
 tagline: A simple, yet powerful dashboard for your server
 icon: https://i.ibb.co/wNJ3BBh/homarr-icon.jpg
 category: Files & Productivity
-version: "0.14.2-RC1"
+version: "0.14.2-RC2"
 port: 7575
 description: >-
   Simplify the management of your server with Homarr - a sleek, modern dashboard that puts all of your apps and services at your fingertips.
