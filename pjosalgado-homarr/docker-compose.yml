@@ -10,6 +10,7 @@ services:
   server: 
     image: ghcr.io/ajnart/homarr:0.14.2
     restart: unless-stopped
+    hostname: "${DEVICE_HOSTNAME}"
     volumes: 
       - ${APP_DATA_DIR}/configs:/app/data/configs
       - ${APP_DATA_DIR}/data:/data
