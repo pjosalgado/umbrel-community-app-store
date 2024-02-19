@@ -4,7 +4,7 @@ name: Duplicati
 tagline: Free backup software to store encrypted backups online
 icon: https://i.ibb.co/FzMN4B6/duplicati-icon.png
 category: Files & Productivity
-version: "2.0.7-RC2"
+version: "2.0.7-RC3"
 port: 8200
 description: >-
   Duplicati is a backup client that securely stores encrypted, incremental, compressed backups on local storage, cloud storage services and remote file servers.

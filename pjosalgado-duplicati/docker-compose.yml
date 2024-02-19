@@ -11,6 +11,9 @@ services:
     image: lscr.io/linuxserver/duplicati:2.0.7
     restart: unless-stopped
     hostname: "${DEVICE_HOSTNAME}"
+    environment: 
+      - PUID=1000
+      - PGID=1000
     volumes: 
       - ${APP_DATA_DIR}/config:/config
       - ${APP_DATA_DIR}/backups:/backups
