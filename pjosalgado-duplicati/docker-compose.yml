@@ -8,7 +8,7 @@ services:
       APP_PORT: 8200
   
   server: 
-    image: lscr.io/linuxserver/duplicati:2.0.7@sha256:63050d37a06d3b41a08f0a0ebafee73ccc8cad88c9fb146bd5588e369572f77a@
+    image: lscr.io/linuxserver/duplicati:2.0.7
     hostname: "${DEVICE_HOSTNAME}"
     restart: unless-stopped
     environment: 

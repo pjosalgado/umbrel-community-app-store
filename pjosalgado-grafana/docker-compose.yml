@@ -8,7 +8,7 @@ services:
       APP_PORT: 3000
   
   server: 
-    image: grafana/grafana:10.0.8@sha256:4894fc9f019267518f016d2c550b629f557c7f7435c1924ff99b2bdb103d8fee@
+    image: grafana/grafana:10.0.8
     hostname: "${DEVICE_HOSTNAME}"
     restart: unless-stopped
     volumes: 

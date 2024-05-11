@@ -8,7 +8,7 @@ services:
       APP_PORT: 7575
   
   server: 
-    image: ghcr.io/ajnart/homarr:0.14.2@sha256:3f2389f69db8b497c32c843d44f26afefb4e47b8e7954d0c43c372713d617ed7@
+    image: ghcr.io/ajnart/homarr:0.14.2
     hostname: "${DEVICE_HOSTNAME}"
     restart: unless-stopped
     volumes: 
