@@ -1,15 +1,14 @@
 version: "3.7"
 
-services: 
-  
-  app_proxy: 
-    environment: 
+services:
+  app_proxy:
+    environment:
       APP_HOST: pjosalgado-grafana_server_1
       APP_PORT: 3000
-  
-  server: 
+
+  server:
     image: grafana/grafana:10.0.8
     hostname: "${DEVICE_HOSTNAME}"
     restart: unless-stopped
-    volumes: 
+    volumes:
       - ${APP_DATA_DIR}/data:/var/lib/grafana
